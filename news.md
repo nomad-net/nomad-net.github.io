@@ -1,6 +1,6 @@
 # News
 
-## Version 3.2 Final (3.2.0.2890) is out / <time datetime="2016-06-13">Jun 13, 2016</time>
+## Version 3.2 Final (3.2.0.2890) is out <time datetime="2016-06-13">Jun 13, 2016</time>
 
 And here it is. Long awaited final version. Of course "final" is only word in about dialog and in general this release contains minor bugfixes only, but actually it means that release is stable enough to use by anybody. Of course it still contains bugs (some was not found yet, some was not reported yet) but nothing major as I hope. Also this is first final version after 5 years break and this is also some kind of achievement. Congratulations everyone.
 
