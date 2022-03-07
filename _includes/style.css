@@ -1,7 +1,0 @@
-time {
-  float: right;
-}
-
-time::before {
-  content: "\";
-}
