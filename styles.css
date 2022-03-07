@@ -3,5 +3,5 @@ time {
 }
 
 time::before {
-  content: "\";
+  content: " / ";
 }
