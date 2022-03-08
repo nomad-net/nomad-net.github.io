@@ -35,33 +35,25 @@ These plug-ins intended to extend application by adding support for more archive
 
 #### Compatibility list for WCX plug-ins
 
-| Plug-in Name | Tested Version | Test Result | Test Date | Nomad Version | Tested By | Comment |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| [btdir](http://wincmd.ru/plugring/btdir.html) | 0.1 beta2 | Works | <time datetime="2011-03-31">Mar 31, 2011</time> | 2.8.7.1740 | Me |
-| [EFD_View](http://infostart.ru/projects/3555/) | 0.9.5.2 | Fail | <time datetime="2011-01-17">Jan 17, 2011</time> | 2.8.7.1700 | Roman Bakay |
-| [HA](http://www.totalcmd.net/plugring/ha.html) | 1.1.0.0 | Works | <time datetime="2008-10-16">Oct 16, 2008</time> | 2.5.0.x | Me |
-| [MhtUnPack](http://www.totalcmd.net/plugring/MhtUnPack.html) | 0.4.0 | Works | <time datetime="2008-10-16">Oct 16, 2008</time> | 2.5.0.x | Me |
-| [Resource Extractor](http://www.totalcmd.net/plugring/resextract.html) | 1.1.1 | Partially | <time datetime="2010-11-15">Nov 15, 2010</time> | 2.8.7.1700 | Me |
-
-*Note:* Not every plug-in supports detection archive format by content, so you can change or add new archive extensions for this (or any other) archive format in application options.
 {% assign wcx_plugins = site.data.tc_plugin_compatibility | where: 'category', 'wcx' %}
 | Plug-in Name | Tested Version | Test Result | Test Date | Nomad Version | Tested By | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 {% for item in wcx_plugins %}| [{{ item.plugin_name }}]({{ item.plugin_url }}) | {{ item.plugin_version }} | {{ item.test_result }} | {{ item.test_date | date: "%b %d, %Y" }} | {{ item.nomad_version }} | {{ item.tested_by }} | {{ item.comment }} |
 {% endfor %}
 
+*Note:* Not every plug-in supports detection archive format by content, so you can change or add new archive extensions for this (or any other) archive format in application options.
+
 ## WDX Plug-ins
 
 These plug-ins extend application by adding new columns (properties) for items. Columns available in Detailed list view, you can show, hide and manage them. Also search files with this properties (columns) is also possible. **Nomad.NET** have full support for such plug-ins.
 
-#### Compatability list for WDX plug-ins
+#### Compatibility list for WDX plug-ins
 
+{% assign wdx_plugins = site.data.tc_plugin_compatibility | where: 'category', 'wdx' %}
 | Plug-in Name | Tested Version | Test Result | Test Date | Nomad Version | Tested By | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| [DirSizeCalc](http://www.totalcmd.net/plugring/dirsizecalc.html) | 2.15 | Works | <time datetime="2010-03-22">Mar 22, 2010</time> | 2.8.5.x | Me |
-| [ExeFormat](http://www.totalcmd.net/plugring/exeformat.html) | 0.6a | Fail | <time datetime="2010-10-10">Dec 10, 2010</time> | 2.8.7.1700 | Me | Error: Attempted to read or write protected memory. |
-| [Exif plugin](http://www.totalcmd.net/plugring/exif2.html) | 1.47b | Works | <time datetime="2010-03-22">Mar 22, 2010</time> | 2.8.5.x | Me |
-| [ShellDetails](http://www.totalcmd.net/plugring/shelldetails.html) | 1.22 | Works | <time datetime="2010-12-10">Dec 10, 2010</time> | 2.8.7.1725 | Me |
+{% for item in wdx_plugins %}| [{{ item.plugin_name }}]({{ item.plugin_url }}) | {{ item.plugin_version }} | {{ item.test_result }} | {{ item.test_date | date: "%b %d, %Y" }} | {{ item.nomad_version }} | {{ item.tested_by }} | {{ item.comment }} |
+{% endfor %}
 
 ## WFX Plug-ins
 
@@ -69,17 +61,11 @@ These plug-ins provide support for new file systems (ext2 for example). Support 
 
 #### Compatibility list for WFX plug-ins
 
+{% assign wfx_plugins = site.data.tc_plugin_compatibility | where: 'category', 'wfx' %}
 | Plug-in Name | Tested Version | Test Result | Test Date | Nomad Version | Tested By | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| [Device Manager](http://www.totalcmd.net/plugring/devman.html) | 1.4 | Works | <time datetime="2011-08-01">Aug 1, 2011</time> | 3.0.0.2135 | Me | This plug-in not fully functional under Vista and Win7. |
-| [Events NT](http://www.totalcmd.net/plugring/eventsnt.html) | 1.3.2.22 | Works | <time datetime="2011-08-01">Aug 1, 2011</time> | 3.0.0.2135 | Me |
-| [ProcFS](http://www.totalcmd.net/plugring/procfs.html) | 2.0 | Works | <time datetime="2011-08-01">Aug 1, 2011</time> | 3.0.0.2135 | Me |
-| [Registry](http://www.totalcmd.net/plugring/registry.html) | 4.8 | Works | <time datetime="2011-08-01">Aug 1, 2011</time> | 3.0.0.2135 | Me |
-| [Services](http://www.totalcmd.net/plugring/services.html) | 2.4.0.203 | Works | <time datetime="2011-08-01">Aug 1, 2011</time> | 3.0.0.2135 | Me |
-| [Startup Guardian](http://gorbush.narod.ru/) | 0.5.1.66 | Fail | <time datetime="2011-08-24">Aug 24, 2011</time> | 3.0.0.2135 | Alexander Slepenkin | System.ArgumentOutOfRangeException: Not a valid Win32 FileTime. Parameter name: fileTime |
-| [Temp drive](http://www.totalcmd.net/plugring/tempd.html) | 1.0.1.41 | Partially | <time datetime="2011-08-01">Aug 1, 2011</time> | 3.0.0.2135 | Me |
-| [Temporary Panel](http://www.totalcmd.net/plugring/temporarypanel.html) | 1.0.0.12 | Works | <time datetime="2011-08-01">Aug 1, 2011</time> | 3.0.0.2135 | Me |
-| [VirtualPanel](http://www.totalcmd.net/plugring/virtualpanel.html) | 1.0.0.820 | Works | <time datetime="2011-08-01">Aug 1, 2011</time> | 3.0.0.2135 | Me |
+{% for item in wfx_plugins %}| [{{ item.plugin_name }}]({{ item.plugin_url }}) | {{ item.plugin_version }} | {{ item.test_result }} | {{ item.test_date | date: "%b %d, %Y" }} | {{ item.nomad_version }} | {{ item.tested_by }} | {{ item.comment }} |
+{% endfor %}
 
 ---
 *Note:* If you find working plug-in that is not in lists, or (which is worse) plug-in that does not work with **Nomad.NET**, please contact me.
