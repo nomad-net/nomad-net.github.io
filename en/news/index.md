@@ -7,5 +7,7 @@ title: News
 {% for post in en_news_posts %}
 ## {{ post.title }}
 
+{{ post | inspect }}
+
 {{ post.content }}
 {% endfor %}
