@@ -1,19 +1,19 @@
 category,plugin_name,plugin_url,plugin_version,test_result,test_date,nomad_version,tested_by,comment
-wcx,btdir,http://wincmd.ru/plugring/btdir.html,0.1 beta2,Works,2011-03-31,2.8.7.1740,Me
-wcx,EFD_View,http://infostart.ru/projects/3555/,0.9.5.2,Fail,2011-01-17,2.8.7.1700,Roman Bakay
-wcx,HA,http://www.totalcmd.net/plugring/ha.html,1.1.0.0,Works,2008-10-16,2.5.0.x,Me
-wcx,MhtUnPack,http://www.totalcmd.net/plugring/MhtUnPack.html,0.4.0,Works,2008-10-16,2.5.0.x,Me
-wcx,Resource Extractor,http://www.totalcmd.net/plugring/resextract.html,1.1.1,Partially,2010-11-15,2.8.7.1700,Me
-wdx,DirSizeCalc,http://www.totalcmd.net/plugring/dirsizecalc.html,2.15,Works,2010-03-22,2.8.5.x,Me
+wcx,btdir,http://wincmd.ru/plugring/btdir.html,0.1 beta2,Works,2011-03-31,2.8.7.1740,Me,
+wcx,EFD_View,http://infostart.ru/projects/3555/,0.9.5.2,Fail,2011-01-17,2.8.7.1700,Roman Bakay,
+wcx,HA,http://www.totalcmd.net/plugring/ha.html,1.1.0.0,Works,2008-10-16,2.5.0.x,Me,
+wcx,MhtUnPack,http://www.totalcmd.net/plugring/MhtUnPack.html,0.4.0,Works,2008-10-16,2.5.0.x,Me,
+wcx,Resource Extractor,http://www.totalcmd.net/plugring/resextract.html,1.1.1,Partially,2010-11-15,2.8.7.1700,Me,
+wdx,DirSizeCalc,http://www.totalcmd.net/plugring/dirsizecalc.html,2.15,Works,2010-03-22,2.8.5.x,Me,
 wdx,ExeFormat,http://www.totalcmd.net/plugring/exeformat.html,0.6a,Fail,2010-10-10,2.8.7.1700,Me,Error: Attempted to read or write protected memory.
-wdx,Exif plugin,http://www.totalcmd.net/plugring/exif2.html,1.47b,Works,2010-03-22,2.8.5.x,Me
-wdx,ShellDetails,http://www.totalcmd.net/plugring/shelldetails.html,1.22,Works,2010-12-10,2.8.7.1725,Me
+wdx,Exif plugin,http://www.totalcmd.net/plugring/exif2.html,1.47b,Works,2010-03-22,2.8.5.x,Me,
+wdx,ShellDetails,http://www.totalcmd.net/plugring/shelldetails.html,1.22,Works,2010-12-10,2.8.7.1725,Me,
 wfx,Device Manager,http://www.totalcmd.net/plugring/devman.html,1.4,Works,2011-08-01,3.0.0.2135,Me,This plug-in not fully functional under Vista and Win7.
-wfx,Events NT,http://www.totalcmd.net/plugring/eventsnt.html,1.3.2.22,Works,2011-08-01,3.0.0.2135,Me
-wfx,ProcFS,http://www.totalcmd.net/plugring/procfs.html,2.0,Works,2011-08-01,3.0.0.2135,Me
-wfx,Registry,http://www.totalcmd.net/plugring/registry.html,4.8,Works,2011-08-01,3.0.0.2135,Me
-wfx,Services,http://www.totalcmd.net/plugring/services.html,2.4.0.203,Works,2011-08-01,3.0.0.2135,Me
+wfx,Events NT,http://www.totalcmd.net/plugring/eventsnt.html,1.3.2.22,Works,2011-08-01,3.0.0.2135,Me,
+wfx,ProcFS,http://www.totalcmd.net/plugring/procfs.html,2.0,Works,2011-08-01,3.0.0.2135,Me,
+wfx,Registry,http://www.totalcmd.net/plugring/registry.html,4.8,Works,2011-08-01,3.0.0.2135,Me,
+wfx,Services,http://www.totalcmd.net/plugring/services.html,2.4.0.203,Works,2011-08-01,3.0.0.2135,Me,
 wfx,Startup Guardian,http://gorbush.narod.ru/,0.5.1.66,Fail,2011-08-24,3.0.0.2135,Alexander Slepenkin,System.ArgumentOutOfRangeException: Not a valid Win32 FileTime. Parameter name: fileTime
-wfx,Temp drive,http://www.totalcmd.net/plugring/tempd.html,1.0.1.41,Partially,2011-08-01,3.0.0.2135,Me
-wfx,Temporary Panel,http://www.totalcmd.net/plugring/temporarypanel.html,1.0.0.12,Works,2011-08-01,3.0.0.2135,Me
-wfx,VirtualPanel,http://www.totalcmd.net/plugring/virtualpanel.html,1.0.0.820,Works,2011-08-01,3.0.0.2135,Me
+wfx,Temp drive,http://www.totalcmd.net/plugring/tempd.html,1.0.1.41,Partially,2011-08-01,3.0.0.2135,Me,
+wfx,Temporary Panel,http://www.totalcmd.net/plugring/temporarypanel.html,1.0.0.12,Works,2011-08-01,3.0.0.2135,Me,
+wfx,VirtualPanel,http://www.totalcmd.net/plugring/virtualpanel.html,1.0.0.820,Works,2011-08-01,3.0.0.2135,Me,
