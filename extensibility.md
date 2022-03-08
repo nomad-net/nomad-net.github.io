@@ -1,3 +1,6 @@
+layout: page
+title: "Extensibility (Plug-ins)"
+
 # Extensibility (Plug-ins)
 
 There is no perfect piece of software in the world and Nomad, of course, is not ideal too. There is a lot of request to add some new functionality to Nomad.NET, and I understand that I cannot satisfy them all. So program extensibility is the only way to give users (i.e. you) more.
