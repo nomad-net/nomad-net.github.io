@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Nomad.NET blog was created
 language: en
 ---
