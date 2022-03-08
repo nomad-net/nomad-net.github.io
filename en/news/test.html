@@ -1,0 +1,4 @@
+{% assign en_news_posts = site.categories.news | where: 'language', 'en' %}
+{% for post in en_news_posts %}
+{{ post | inspect }}
+{% endfor %}
