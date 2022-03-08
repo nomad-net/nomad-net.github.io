@@ -3,8 +3,8 @@ title: News
 ---
 # News
 
-{% assign news_posts = site.posts | where: 'category', 'news' %}
-{% for post in site.posts %}
+{% assign en_news_posts = site.categories.news | where: 'language', 'en' %}
+{% for post in en_news_posts %}
 ## {{ post.title }}
 
 {{ post.content }}
