@@ -45,6 +45,14 @@ These plug-ins intended to extend application by adding support for more archive
 
 *Note:* Not every plug-in supports detection archive format by content, so you can change or add new archive extensions for this (or any other) archive format in application options.
 
+{% for item in site.data.tc_plugin_compatibility %}
+  <li>
+    <a href="{{ item.plugin_url }}">
+      {{ plugin_name }}
+    </a>
+  </li>
+{% endfor %}
+
 ## WDX Plug-ins
 
 These plug-ins extend application by adding new columns (properties) for items. Columns available in Detailed list view, you can show, hide and manage them. Also search files with this properties (columns) is also possible. **Nomad.NET** have full support for such plug-ins.
