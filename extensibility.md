@@ -47,7 +47,8 @@ These plug-ins intended to extend application by adding support for more archive
 {% assign wcx_plugins = site.data.tc_plugin_compatibility | where: 'category', 'wcx' %}
 | Plug-in Name | Tested Version | Test Result | Test Date | Nomad Version | Tested By | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-{% for item in wcx_plugins %}| [{{ item.plugin_name }}]({{ item.plugin_url }}) | {{ item.plugin_version }} | {{ item.test_result }} | {{ item.test_date | date: "%b %d, %Y" }} | {{ item.nomad_version }} | {{ item.tested_by }} | {{ item.comment }} |{% endfor %}
+{% for item in wcx_plugins %}| [{{ item.plugin_name }}]({{ item.plugin_url }}) | {{ item.plugin_version }} | {{ item.test_result }} | {{ item.test_date | date: "%b %d, %Y" }} | {{ item.nomad_version }} | {{ item.tested_by }} | {{ item.comment }} |
+{% endfor %}
 
 ## WDX Plug-ins
 
