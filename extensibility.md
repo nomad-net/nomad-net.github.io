@@ -1,5 +1,7 @@
+---
 layout: page
-title: "Extensibility (Plug-ins)"
+title: Extensibility (Plug-ins)
+---
 
 # Extensibility (Plug-ins)
 
