@@ -8,4 +8,4 @@ You can download it [here](/en/downloads). Changes are countless and you can fin
 
 Also this is alpha, very stable but still alpha, so importing settings from previous version is disabled. Binaries optimization is also disabled by default (however you can compile it if you wish). Full debug information is enabled in this build, so this can slowdown application a bit, especially in comparison with current stable version. However there is a lot of speed optimizations done in this release, so I think , so I think it should faster actually.
 
-![Nomad 3.0.x screenshot!]({ % link /en/assets/images/nomad_3_0_shot_en.png %})
+![Nomad 3.0.x screenshot]({% link /en/assets/images/nomad_3_0_shot_en.png %})
