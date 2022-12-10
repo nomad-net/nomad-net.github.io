@@ -37,7 +37,7 @@ As you can see, the main idea of new Nomad.NET is to do the same things in more 
 ## Screenshot
 
 One image can say more than thousand words.
-![Nomad screenshot]({% link /en/assets/images/nomad_shot_en.png %})
+![Nomad screenshot]({% link /en/assets/images/nomad-shot-en.png %})
 
 ## License
 
