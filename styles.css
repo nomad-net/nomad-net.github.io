@@ -15,6 +15,7 @@ time::before {
   max-width: initial;
   border-style: dotted;
   border-width: 1px;
+  z-index: 1;
 }
 
 .inline-screenshot a:hover + img {
