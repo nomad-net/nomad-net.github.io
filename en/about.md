@@ -12,7 +12,7 @@ I do not want to create all-in-one mega monster that plays mp3, shows movies, et
 
 As for features of original Nomad, you can take a look at them on appropriate page. Here I describe the features that are significantly changed or just are new:
 
-- Full Unicode support.<sup>[[screenshot]](unicode.png)</sup>
+- Full Unicode support.<sup class='inline-screenshot'>[[screenshot]](/unicode.png)![unicode]({% link /unicode.png %})</sup>
 - Tabbed interface. But in contrast to almost every other file manager tabs are not panel based.
 - Powerful bookmarks system. You can bookmark you favorite folders, ftp sites or even searches (yes, you can create virtual search folders).
 - One of the most powerful search engines on market (if I can say market, project is freeware). You can create very complex search rules, with ability to search in different encoding (complete encodings auto detect), use IFilter filters, apply custom text search rules (including regular expressions), search in hex, duplicates search and so on... For novices there is a simplified search that is not so scary at first sight.[screenshot]
