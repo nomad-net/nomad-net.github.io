@@ -1,5 +1,5 @@
 ---
-lang: ru
+lang: en
 title: Version 2.6.5.1053 alpha is out
 ---
 New alpha release. This release mostly contains usability improvements and user requests implementation (check the [changelog](/history.txt), because there is a lot of them). But there is more, nomad receives major volume framework update, as well as, experimental support for different ftp encodings.
