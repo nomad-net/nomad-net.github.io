@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: page
 title: Extensibility (Plug-ins)
 ---
