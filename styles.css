@@ -12,6 +12,9 @@ time::before {
 
 .inline-screenshot img {
   display: none;
+  max-width: initial;
+  border-style: dotted;
+  border-width: 1px;
 }
 
 .inline-screenshot a:hover + img {

@@ -15,7 +15,7 @@ As for features of original Nomad, you can take a look at them on appropriate pa
 - Full Unicode support.<sup class='inline-screenshot'>[[screenshot]](/unicode.png)![unicode]({% link /unicode.png %})</sup>
 - Tabbed interface. But in contrast to almost every other file manager tabs are not panel based.
 - Powerful bookmarks system. You can bookmark you favorite folders, ftp sites or even searches (yes, you can create virtual search folders).
-- One of the most powerful search engines on market (if I can say market, project is freeware). You can create very complex search rules, with ability to search in different encoding (complete encodings auto detect), use IFilter filters, apply custom text search rules (including regular expressions), search in hex, duplicates search and so on... For novices there is a simplified search that is not so scary at first sight.[screenshot]
+- One of the most powerful search engines on market (if I can say market, project is freeware). You can create very complex search rules, with ability to search in different encoding (complete encodings auto detect), use IFilter filters, apply custom text search rules (including regular expressions), search in hex, duplicates search and so on... For novices there is a simplified search that is not so scary at first sight.<sup class='inline-screenshot'>[[screenshot]](/search-en.gif)![search]({% link /search-en.gif %})</sup>
 - Powerful filtering system, based on the same core as search. You can use dedicated advanced filter dialog, or use simple toolstrip for quick filtering.[screenshot]
 - Much simpler, elegant and polished UI (program must look nice, right?)[screenshot]
 - Customizable visual themes[screenshot] and icon packs. And you can even create your own themes and icon packs.
