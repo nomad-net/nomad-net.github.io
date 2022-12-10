@@ -1,6 +1,6 @@
---
+---
 lang: en
---
+---
 # About
 
 **Nomad.NET** is the successor of Nomad, a powerful file manager written by me a couple of years ago. It is completely rewritten (no single line of code was taken from previous Nomad) using best ideas and algorithms and implementing everything in a completely new way.
