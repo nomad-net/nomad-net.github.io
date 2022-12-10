@@ -1,0 +1,26 @@
+time {
+  float: right;
+}
+
+time::before {
+  content: " # ";
+}
+
+.inline-screenshot {
+  position: relative;
+
+  img {
+    display: none;
+    max-width: initial;
+    border-style: dotted;
+    border-width: 1px;
+    z-index: 1;
+  }
+
+  a:hover + img {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+  }
+}
