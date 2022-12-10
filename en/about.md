@@ -1,3 +1,6 @@
+--
+lang: en
+--
 # About
 
 **Nomad.NET** is the successor of Nomad, a powerful file manager written by me a couple of years ago. It is completely rewritten (no single line of code was taken from previous Nomad) using best ideas and algorithms and implementing everything in a completely new way.
@@ -12,7 +15,7 @@ I do not want to create all-in-one mega monster that plays mp3, shows movies, et
 
 As for features of original Nomad, you can take a look at them on appropriate page. Here I describe the features that are significantly changed or just are new:
 
-- Full Unicode support.<sup class='inline-screenshot'>[[screenshot]](/unicode.png)![unicode](/unicode.png)</sup>
+- Full Unicode support.<sup class='inline-screenshot'>[[screenshot]](/assets/images/unicode.png)![unicode](/assets/images/unicode.png)</sup>
 - Tabbed interface. But in contrast to almost every other file manager tabs are not panel based.
 - Powerful bookmarks system. You can bookmark you favorite folders, ftp sites or even searches (yes, you can create virtual search folders).
 - One of the most powerful search engines on market (if I can say market, project is freeware). You can create very complex search rules, with ability to search in different encoding (complete encodings auto detect), use IFilter filters, apply custom text search rules (including regular expressions), search in hex, duplicates search and so on... For novices there is a simplified search that is not so scary at first sight.<sup class='inline-screenshot'>[[screenshot]](/en/assets/images/search-en.gif)![search](/en/assets/images/search-en.gif)</sup>
@@ -23,7 +26,7 @@ As for features of original Nomad, you can take a look at them on appropriate pa
 - Improved main form layout. You can use single panel or dual panel mode (horizontal or vertical). Each panel can have its own tree view that can be hidden or displayed horizontally or vertically. And you can even store your customized layouts for future use.
 - Ability to customize selected folders view and options (filter, sort, etc). This is unique feature and you cannot find it in other managers.<sup class='inline-screenshot'>[[screenshot]](/en/assets/images/customize-folder-en.png)![customize folder](/en/assets/images/customize-folder-en.png)</sup>
 - Program is highly customizable via Options dialog<sup class='inline-screenshot'>[[screenshot]](/en/assets/images/options-en.png)![options](/en/assets/images/options-en.png)</sup>, including simple UI scaling according to your current system DPI settings (or manually).
-- Breadcrumb folder toolstrip on every panel is much more powerful than simple folder name.<sup class='inline-screenshot'>[[screenshot]](/breadcrumb.png)![breadcrumb](/breadcrumb.png)</sup>
+- Breadcrumb folder toolstrip on every panel is much more powerful than simple folder name.<sup class='inline-screenshot'>[[screenshot]](/assets/images/breadcrumb.png)![breadcrumb](/assets/images/breadcrumb.png)</sup>
 - Full internal support for many archive types (using 7-Zip libraries). Program can also handle WCX Total Commander plug-ins, even in more powerful way than original did. You can view, create and edit archives.
 - Support for WDX (new columns) and WFX (new file systems) Total Commander plug-ins are also here.
 - FTP folders support (with limitations yet, for example, only one http proxy allowed with no UI to configure).

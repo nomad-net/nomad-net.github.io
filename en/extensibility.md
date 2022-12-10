@@ -28,7 +28,7 @@ If you find TC plug-in that is works or not works with Nomad, please contact me 
 
 ## Plug-ins installation
 
-For TC plug-ins there is two ways to install them. If plug-in comes as archive and it is configured to auto-install (archive contains pluginst.inf file), Nomad will ask to install it when you open it. For plug-ins that do not support such functionality you can simple extract (copy) them into appropriate plug-ins folder (\plugins\wcx\ for wcx plugins, \plugins\wdx\ for wdx plug-ins, etc). Note that for many plug-ins Nomad restart is required after installation.
+For TC plug-ins there is two ways to install them. If plug-in comes as archive and it is configured to auto-install (archive contains *pluginst.inf* file), Nomad will ask to install it when you open it. For plug-ins that do not support such functionality you can simple extract (copy) them into appropriate plug-ins folder (*\plugins\wcx\* for wcx plugins, *\plugins\wdx\* for wdx plug-ins, etc). Note that for many plug-ins Nomad restart is required after installation.
 
 ## WCX Plug-ins
 
