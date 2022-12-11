@@ -1,5 +1,6 @@
 ---
 lang: ru
+layout: page
 ---
 # О Программе
 
