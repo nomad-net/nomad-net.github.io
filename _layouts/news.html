@@ -1,9 +1,12 @@
 ---
 layout: page
 ---
+<h1>{{ page.title }}</h1>
+
 {% assign news_posts = site.categories.news | where: 'lang', page.lang %}
-<article>
+
 {% for post in news_posts %}
+<article>
 <h2 id="{{ post.id }}">{{ post.title }}<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time></h2>
 {{ post.content }}
 </article>
