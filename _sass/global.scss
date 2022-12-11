@@ -17,22 +17,24 @@
   }
 }
 
-.markdown-body > header {
-  border-bottom: 1px solid lightgray;
-  display: flex;
-  margin-top: 24px;
-  margin-bottom: 16px;
-  padding-bottom: 8px;
+.markdown-body {
+  header {
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
 
-  h2 {
-    border-bottom-style: hidden;
-    display: inline;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: auto;
-  }
+    h2 {
+      border-bottom-style: hidden;
+      display: inline;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-right: auto;
+    }
 
-  time::before {
-    content: " # ";
+    time::before {
+      content: " # ";
+    }
   }
 }
