@@ -7,7 +7,7 @@ layout: page
 
 {% for post in news_posts %}
 <article>
-<h2 id="{{ post.id }}">{{ post.title }}<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time></h2>
+<header><h2 id="{{ post.slug }}">{{ post.title }}</h2><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time></header>
 {{ post.content }}
 </article>
 {% endfor %}
