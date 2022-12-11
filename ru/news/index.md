@@ -1,5 +1,7 @@
 ---
-title: Новости
+lang: ru
+layout: page
+nav: 10
 ---
 # Новости
 

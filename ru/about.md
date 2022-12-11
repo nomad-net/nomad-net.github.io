@@ -1,6 +1,7 @@
 ---
 lang: ru
 layout: page
+nav: 20
 ---
 # О Программе
 

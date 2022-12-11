@@ -1,5 +1,7 @@
 ---
-title: News
+lang: en
+layout: page
+nav: 10
 ---
 # News
 

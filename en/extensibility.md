@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: page
-title: Extensibility (Plug-ins)
+nav: 30
 ---
 
 # Extensibility (Plug-ins)
