@@ -4,7 +4,8 @@ layout: default
 
 {% assign nav_pages = site.pages | where: 'lang', page.lang | where_exp: "p", "p.nav > 0" | sort: "nav" %}
 
-<nav>
+<div class="page-container">
+<nav class="page-nav">
 <ul>
 {% for nav_page in nav_pages %}
 <li><a href="{{ nav_page.url | relative_url }}">{{ nav_page.title }}</a></li>
@@ -12,6 +13,7 @@ layout: default
 </ul>
 </nav>
 
-<div class="content">
+<div class="page-content">
 {{ content }}
+</div>
 </div>
