@@ -17,21 +17,21 @@
   }
 }
 
-header {
+.markdown-body > header {
   border-bottom: 1px solid lightgray;
+  display: flex;
   margin-top: 24px;
   margin-bottom: 16px;
   padding-bottom: 8px;
 
   h2 {
-    border-bottom-style: hidden !important;
-    display: inline;    
+    border-bottom-style: hidden;
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
   }
 
-  time {
-    float: right;
-  }
-  
   time::before {
     content: " # ";
   }
