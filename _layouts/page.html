@@ -2,9 +2,12 @@
 layout: default
 ---
 
+{% assign about-page = site.pages | where: "name", "about.md" | where "lang", page.lang | first %}
+{% assign extensibility-page = site.pages | where: "name", "extensibility.md" | where "lang", page.lang | first %}
+
 <nav>
-    <a href="{{ page.lang/about | relative_url }}">About</a>
-    <a href="{{ page.lang/extensibility | relative_url }}">Extensibility</a>
+    <a href="{{ about-page.url | relative_url }}">{{ about-page.title }}</a>
+    <a href="{{ extensibility-page.url | relative_url }}">{{ extensibility-page.title }}</a>
 </nav>
 
 {{ content }}
