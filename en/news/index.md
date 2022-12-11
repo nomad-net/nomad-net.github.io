@@ -10,4 +10,5 @@ nav: 10
 ## {{ post.title }} <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time>
 
 {{ post.content }}
+{{ post.url | relative_url }}
 {% endfor %}
