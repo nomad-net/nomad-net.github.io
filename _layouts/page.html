@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign nav_pages = site.pages | where: 'lang', page.lang | where_exp: "p", "p.nav > 0" %}
+{% assign nav_pages = site.pages | where: 'lang', page.lang | where_exp: "p", "p.nav > 0" | sort: "nav" %}
 
 <nav>
 {% for nav_page in nav_pages %}
