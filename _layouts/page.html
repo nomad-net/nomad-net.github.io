@@ -8,7 +8,13 @@ layout: default
 <nav class="page-nav">
 <ul>
 {% for nav_page in nav_pages %}
-<li><a href="{{ nav_page.url | relative_url }}">{{ nav_page.title }}</a></li>
+<li>
+{% if page.id == nav_page.id %}
+<a class="active">{{ nav_page.title }}</a>
+{% else %}
+<a href="{{ nav_page.url | relative_url }}">{{ nav_page.title }}</a>
+{% endif %}
+</li>
 {% endfor %}
 </ul>
 </nav>
@@ -16,4 +22,18 @@ layout: default
 <div class="page-content">
 {{ content }}
 </div>
+</div>
+
+<div>
+{% if page.lang == "en" %}
+en
+{% else %}
+<a href="{{ page.url | replace: "/ru/", "/en/" | relative_url }}">en</a>
+{% endif %}
+&nbsp;|&nbsp;
+{% if page.lang == "ru" %}
+ru
+{% else %}
+<a href="{{ page.url | replace: "/en/", "/ru/" | relative_url }}">ru</a>
+{% endif %}
 </div>
