@@ -63,15 +63,17 @@
 
     > * {
       flex: none;
+    }
+
+    .page-content {
       padding-left: 0;
     }
 
-    nav li a {
+    nav ul li a {
       display: inline;
     }
   }
 }
- 
 
 @media screen and (max-width: 400px) {
   .page-container nav ul li a {
