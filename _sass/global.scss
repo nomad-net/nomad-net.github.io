@@ -26,8 +26,11 @@
     ul {
       list-style-type: none;
       background-color: #f1f1f1;
+      padding: 0;
   
       li {
+        display: inline;
+
         a {
           display: block;
           color: #000;
@@ -50,6 +53,7 @@
 
   .page-content {
     flex: auto;
+    padding-left: 16px;
   }
 }
 
@@ -59,6 +63,7 @@
 
     > * {
       flex: none;
+      padding-left: 0;
     }
 
     nav li a {
@@ -71,7 +76,7 @@
 @media screen and (max-width: 400px) {
   .page-container nav ul li a {
     display: block;
-    width: 100%;
+    text-align: center;
   }
 }
 
