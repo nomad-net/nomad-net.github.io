@@ -1,3 +1,7 @@
+---
+lang: en
+layout: page
+---
 # Old Viewer
 
 Viewer is a companion program for [Nomad](/en/old-nomad). Right now it is included in Nomad package, and not available as separate download. After downloading it can be used for viewing files in any file manager or stand-alone. But program was quite old and not updated for a long time, so it can miss some features that is common today.

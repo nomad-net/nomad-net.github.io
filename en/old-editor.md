@@ -1,5 +1,5 @@
 ---
-lang: ru
+lang: en
 layout: page
 ---
 # Old Editor
