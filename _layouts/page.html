@@ -21,11 +21,11 @@ layout: default
 </nav>
 
 <div class="page-content">
+
 {{ content }}
-</div>
 
 <div class="page-footer">
-<span>contact: support&nbsp;[at]&nbsp;nomad-net.info</span>
+<span>contact: support [at] nomad-net.info</span>
 <span class="lang-selector">
 language: 
 {% if page.lang == "en" %}
@@ -33,13 +33,15 @@ en
 {% else %}
 <a href="{{ page.url | replace: "/ru/", "/en/" | relative_url }}">en</a>
 {% endif %}
-&nbsp;/&nbsp;
+/
 {% if page.lang == "ru" %}
 ru
 {% else %}
 <a href="{{ page.url | replace: "/en/", "/ru/" | relative_url }}">ru</a>
 {% endif %}
 </span>
+</div>
+
 </div>
 
 </div>
